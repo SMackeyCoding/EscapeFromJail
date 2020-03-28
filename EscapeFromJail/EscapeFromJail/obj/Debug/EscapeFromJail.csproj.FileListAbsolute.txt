@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\bin\Debug\EscapeFromJail.exe.config
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\bin\Debug\EscapeFromJail.exe
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\bin\Debug\EscapeFromJail.pdb
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\obj\Debug\EscapeFromJail.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\obj\Debug\EscapeFromJail.exe
+C:\ElevenFiftyProjects\DotNetFeb2020\Projects\EscapeFromJail\EscapeFromJail\obj\Debug\EscapeFromJail.pdb
