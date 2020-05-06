@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace EscapeFromJail
 {
-    class Program
-    {
-        static void Main(string[] args)
+	public class RunGame
+	{
+        public void Run()
         {
-            RunGame game = new RunGame();
-            game.Run();
+            JailEscape game = new JailEscape();
+            game.Intro();
         }
     }
 }
-       
+

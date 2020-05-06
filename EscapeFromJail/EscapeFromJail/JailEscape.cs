@@ -15,23 +15,16 @@ namespace EscapeFromJail
         bool hasCellKey = false;
         bool chowBerating = false;
         bool fatTonyInfo = false;
-        string password;
-        string StroopTest;
         bool secGuardInfo = false;
         bool hasShowered = false;
         bool hasUniform = false;
         bool hasOutfit = false;
+        string password;
         Random randColor = new Random();
 
 
-        public void Run()
-        {
-            bool programRunning = true;
-            while (programRunning)
-            {
-                Intro();
-            }
-        }
+
+     
 
         public void Intro()
         {
@@ -159,7 +152,8 @@ namespace EscapeFromJail
                         "You are not escaping today. Game over.");
                     Console.ReadLine();
                     Console.Clear();
-                    Run();
+                    RunGame game = new RunGame();
+                    game.Run();
                 }
             }
             else if (cellResponse == "5" && !hasCellKey)
@@ -269,7 +263,8 @@ namespace EscapeFromJail
                             "You are not escaping today. Game over.");
                         Console.ReadLine();
                         Console.Clear();
-                        Run();
+                        RunGame game = new RunGame();
+                        game.Run();
                     }
                     else
                     {
@@ -279,7 +274,8 @@ namespace EscapeFromJail
                             "You are not escaping today. Game over.");
                         Console.ReadLine();
                         Console.Clear();
-                        Run();
+                        RunGame game = new RunGame();
+                        game.Run();
                     }
                 }
             }
@@ -330,6 +326,7 @@ namespace EscapeFromJail
                 Console.ForegroundColor = ConsoleColor.Yellow;
             }
 
+            // Change for color blind
 
             Console.WriteLine($"{colors[colorIndex]}");
             Console.ForegroundColor = ConsoleColor.White;
@@ -360,7 +357,8 @@ namespace EscapeFromJail
                         "You are not escaping today. Game over.");
                     Console.ReadLine();
                     Console.Clear();
-                    Run();
+                    RunGame game = new RunGame();
+                    game.Run();
                 }
                 else
                 {
@@ -370,7 +368,8 @@ namespace EscapeFromJail
                         "You are not escaping today. Game over.");
                     Console.ReadLine();
                     Console.Clear();
-                    Run();
+                    RunGame game = new RunGame();
+                    game.Run();
                 }
             }
             else
@@ -381,7 +380,8 @@ namespace EscapeFromJail
                     "You start to worry how this would affect you, then your vision starts to skew, and you fall to the floor.\n\n" +
                     "You are not escaping today. Game Over.");
                 Console.ReadLine();
-                Run();
+                RunGame game = new RunGame();
+                game.Run();
             }
 
 
@@ -531,7 +531,8 @@ namespace EscapeFromJail
                         "You are not escaping today. Game over.");
                     Console.ReadLine();
                     Console.Clear();
-                    Run();
+                    RunGame game = new RunGame();
+                    game.Run();
                 }
                 else if (chowGroupResp == "3")
                 {
@@ -609,7 +610,8 @@ namespace EscapeFromJail
                     "You are not escaping today. Game over.");
                 Console.ReadLine();
                 Console.Clear();
-                Run();
+                RunGame game = new RunGame();
+                game.Run();
             }
         }
         public void BackToCell()
@@ -839,7 +841,8 @@ namespace EscapeFromJail
                                 "You are not escaping today. Game over.");
                             Console.ReadLine();
                             Console.Clear();
-                            Run();
+                            RunGame game = new RunGame();
+                            game.Run();
                         }
                     }
                     else if (yardResponse3 == "2" && fatTonyInfo)
@@ -896,7 +899,8 @@ namespace EscapeFromJail
                                     "You are not escaping today. Game over.");
                                 Console.ReadLine();
                                 Console.Clear();
-                                Run();
+                                RunGame game = new RunGame();
+                                game.Run();
                             }
                         }
                     }
@@ -960,7 +964,8 @@ namespace EscapeFromJail
                             "You are not escaping today. Game over.");
                         Console.ReadLine();
                         Console.Clear();
-                        Run();
+                        RunGame game = new RunGame();
+                        game.Run();
                     }
                     else
                     {
@@ -1180,7 +1185,8 @@ namespace EscapeFromJail
                     "You are not escaping today. Game over.");
                 Console.ReadLine();
                 Console.Clear();
-                Run();
+                RunGame game = new RunGame();
+                game.Run();
             }
             else
             {
@@ -1233,7 +1239,8 @@ namespace EscapeFromJail
                     $"You are not escaping today. Game over.");
                 Console.ReadLine();
                 Console.Clear();
-                Run();
+                RunGame game = new RunGame();
+                game.Run();
             }
             else if (guardLockResponse1 == "1" && hasOutfit)
             {
@@ -1414,7 +1421,8 @@ namespace EscapeFromJail
                             $"You were close, but you are not escaping today. Game over.");
                         Console.ReadLine();
                         Console.Clear();
-                        Run();
+                        RunGame game = new RunGame();
+                        game.Run();
                     }
                     else
                     {
@@ -1450,7 +1458,8 @@ namespace EscapeFromJail
                             $"You were close, but you are not escaping today. Game over.");
                         Console.ReadLine();
                         Console.Clear();
-                        Run();
+                        RunGame game = new RunGame();
+                        game.Run();
                     }
                     else
                     {
@@ -1468,7 +1477,8 @@ namespace EscapeFromJail
                         $"You were close, but you are not escaping today. Game over.");
                     Console.ReadLine();
                     Console.Clear();
-                    Run();
+                    RunGame game = new RunGame();
+                    game.Run();
                 }
                 else
                 {
